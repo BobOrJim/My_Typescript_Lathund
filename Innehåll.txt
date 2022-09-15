@@ -1,0 +1,34 @@
+file1.ts
+  -RegExp
+  -keyof (skapar en union av alla datatyper på keys i ett objekt)
+  -extends keyof
+
+file2.ts
+ -checkIfValueExistsInTAtKeyK<T, K extends keyof T, V extends T[K]>(obj: T, key: K, value: V)
+
+
+
+* Tommy bilden i denna folder
+
+App property
+Remove property
+ärva property + något annat
+ärva property - något annat
+ärver men som optional
+type Staff1 = {
+  name: string;
+  salary: number;
+};
+type Staff1Partial = Partial<Staff1>;
+const staff1: Staff1Partial = {
+  name: "John",
+};
+ärver men som requiere
+vad är en literal
+
+släng in ett Enum
+
+map vs dictionary = samma skit, men map har lite bling bling funktioner.
+
+
+
