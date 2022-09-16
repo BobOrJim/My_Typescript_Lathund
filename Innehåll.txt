@@ -6,9 +6,11 @@ file1.ts
 file2.ts
  -checkIfValueExistsInTAtKeyK<T, K extends keyof T, V extends T[K]>(obj: T, key: K, value: V)
 
+file3.ts
+  - typeof och overloadeing
 
 
-* Tommy bilden i denna folder
+
 
 App property
 Remove property
