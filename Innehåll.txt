@@ -1,3 +1,5 @@
+npx ts-node file1.ts
+
 file1.ts
   -RegExp
   -keyof (skapar en union av alla datatyper på keys i ett objekt)
@@ -9,23 +11,20 @@ file2.ts
 file3.ts
   - typeof och overloadeing
 
+file4.ts
+  - Snyggt exempel med null terminator
+  - en gullig useState implementation
+
+file5.ts
+  - generics men snygg sort där jag addar och sen removar en property från objekt
+
+file6.ts 
+  - All bout modifying types.
 
 
 
-App property
-Remove property
-ärva property + något annat
-ärva property - något annat
-ärver men som optional
-type Staff1 = {
-  name: string;
-  salary: number;
-};
-type Staff1Partial = Partial<Staff1>;
-const staff1: Staff1Partial = {
-  name: "John",
-};
-ärver men som requiere
+
+
 vad är en literal
 
 släng in ett Enum
