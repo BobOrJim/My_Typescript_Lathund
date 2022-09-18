@@ -1,3 +1,5 @@
+/*
+
 type Person = {
   name: string;
   age: number;
@@ -19,3 +21,5 @@ console.log(checkIfValueExistsInTAtKeyK(person1, "name", "John")); //true
 console.log(checkIfValueExistsInTAtKeyK(person1, "age", 20)); //true
 console.log(checkIfValueExistsInTAtKeyK(person1, "isAlive", true)); //true
 console.log(checkIfValueExistsInTAtKeyK(person1, "name", "John1")); //false
+
+*/
