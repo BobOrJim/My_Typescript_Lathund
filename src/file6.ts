@@ -1,3 +1,11 @@
+//VIKTIGT
+
+//spread operatorn arbetar bara med en nivå. typ som shalow copy.
+//Har jg objekt med flera nivåer måste jag spreada det oxå.
+
+//Tips1: Har jag typer som jävlas, och att jag vill använda samm typ till två libs som är förvirrade
+//så kör jag min type = type1 & type2. Tex om jag slår ihop react navigation theme, och react native paper theme
+
 type Person = {
   name: string;
   age: number;
@@ -36,3 +44,6 @@ type PersonWithReadonlyProperties = Readonly<Person>;
 const merge = (user: Person, overrides: PersonWithOptionalProperties): Person => {
   return { ...user, ...overrides };
 };
+
+//Extens fundering.
+//Ok att tänka som både utökare och kravstälare.
